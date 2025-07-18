@@ -15,7 +15,7 @@ to allow the user to view and edit the content of the file in plain text
 1. Clone the repository:
 
 ```bash
-   git clone https://gitea.conkuist.ddnsgeek.com/Conkuist/hsp2json.git
+   git clone https://github.com/Conkuist/hsp2json.git
    cd hsp2json
 ```
 
