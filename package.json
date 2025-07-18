@@ -1,0 +1,16 @@
+{
+  "name": "hsp2json",
+  "version": "1.0.0",
+  "description": "converter for HereSphere hsp file format",
+  "main": "convert.js",
+  "scripts": {
+    "start": "node convert.js"
+  },
+  "author": "Conkuist",
+  "license": "MIT",
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^10.9.0",
+    "smart-buffer": "^4.2.0"
+  }
+}

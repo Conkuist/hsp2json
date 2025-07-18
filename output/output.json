@@ -1,0 +1,355 @@
+{
+  "version": 7,
+  "uniqueID": "http://127.0.0.1:3000/heresphere/1",
+  "title": "Example Title",
+  "description": "Example description of video",
+  "dateAdded": 1730851200000,
+  "dateReleased": 1730592000000,
+  "dateLastPlayed": 1731149208370,
+  "dateEdited": 1731149208370,
+  "duration": 120000,
+  "resumeTime": 0,
+  "abLoopStartTime": 0,
+  "abLoopEndTime": 0,
+  "playCount": 1,
+  "comments": 43,
+  "favorites": 69,
+  "isFavorite": false,
+  "averageRating": 5,
+  "audioTrack": 0,
+  "tags": [
+    {
+      "name": "Scene:Introduction",
+      "rating": 2.5,
+      "start": 0,
+      "end": 60000,
+      "track": 0
+    },
+    {
+      "name": "Scene:Action",
+      "rating": 4.300000190734863,
+      "start": 60000,
+      "end": 120000,
+      "track": 0
+    },
+    {
+      "name": "Scene:Ending",
+      "rating": 3.5,
+      "start": 120000,
+      "end": 180000,
+      "track": 0
+    },
+    {
+      "name": "Talent:Example Talent Name",
+      "rating": 5,
+      "start": 0,
+      "end": 0,
+      "track": 1
+    },
+    {
+      "name": "Studio:Example Studio Name",
+      "rating": 4.5,
+      "start": 0,
+      "end": 0,
+      "track": 2
+    }
+  ],
+  "projectionKFs": {
+    "formatKFs": [
+      {
+        "time": 0,
+        "projectionMode": "Fisheye",
+        "stereoMode": "SideBySide",
+        "eyeSwapEnabled": false,
+        "forceMonoEnabled": false,
+        "flipFrontBack": false,
+        "flipLeftRight": false,
+        "flipUpDown": false,
+        "aspectRatioType": "Autodetect",
+        "aspectRatio": 2,
+        "zoom": {
+          "x": 1,
+          "y": 1
+        },
+        "pan": {
+          "x": 0,
+          "y": 0
+        },
+        "orientationType": "Up"
+      }
+    ],
+    "lensKFs": [
+      {
+        "time": 0,
+        "trueLensName": "Linear",
+        "exportLensName": "Linear",
+        "trueLensCalibration": {
+          "red": 0.6366199851036072,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "exportLensCalibration": {
+          "red": 0.6366199851036072,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "trueFOV": 190,
+        "exportFOV": 180
+      }
+    ],
+    "stitchKFs": [
+      {
+        "time": 0,
+        "shift": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 0
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": 1
+        },
+        "shear": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 0
+        },
+        "flare": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 0
+        },
+        "slant": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 0
+        }
+      }
+    ],
+    "alignmentKFs": [
+      {
+        "time": 0,
+        "position": {
+          "x": 0,
+          "y": 6.5,
+          "z": 0
+        },
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        }
+      }
+    ],
+    "orientationKFs": [
+      {
+        "time": 0,
+        "orientation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        }
+      },
+      {
+        "time": 842989,
+        "orientation": {
+          "pitch": -39.06425476074219,
+          "yaw": 0,
+          "roll": 0
+        }
+      },
+      {
+        "time": 1695303,
+        "orientation": {
+          "pitch": 40.894500732421875,
+          "yaw": 0,
+          "roll": 0
+        }
+      },
+      {
+        "time": 2455704,
+        "orientation": {
+          "pitch": -32.04981994628906,
+          "yaw": 0,
+          "roll": 0
+        }
+      }
+    ],
+    "originKFs": [
+      {
+        "time": 0,
+        "origin": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "motionKFs": [
+      {
+        "time": 0,
+        "motionDistance": 200
+      }
+    ],
+    "autoFocusKFs": [
+      {
+        "time": 0,
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "focalDistanceOverride": 0,
+        "minFocusDistance": 10,
+        "maxFocusDistance": 1000,
+        "focusTransitionSpeed": 1
+      }
+    ],
+    "syncKFs": [
+      {
+        "time": 0,
+        "startingTicksOffset": 0,
+        "ticksPerHoursOffset": 0
+      }
+    ],
+    "transitionKFs": [
+      {
+        "time": 0,
+        "type": "Blink",
+        "duration": 0
+      }
+    ],
+    "imageKFs": [
+      {
+        "time": 0,
+        "sharpness": 2,
+        "colorExposureBias": 0,
+        "colorWhiteTemperature": 6500,
+        "colorWhiteTint": 0,
+        "colorSaturation": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": 1
+        },
+        "colorContrast": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": 1
+        },
+        "colorGamma": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": 1
+        },
+        "colorGain": {
+          "x": 1,
+          "y": 1,
+          "z": 1,
+          "w": 1
+        },
+        "colorOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 0
+        },
+        "shadows": 0,
+        "midtones": 1,
+        "highlights": 1
+      }
+    ],
+    "audioKFs": [
+      {
+        "time": 0,
+        "timeOffset": 0,
+        "volumeMultiplier": 1
+      }
+    ],
+    "environmentKFs": [
+      {
+        "time": 0,
+        "backgroundType": "Color",
+        "backgroundColor": {
+          "red": 0.5,
+          "green": 0.6000000238418579,
+          "blue": 0.699999988079071,
+          "alpha": 1
+        },
+        "backgroundName": "",
+        "maskType": "AlphaPacked",
+        "opacityScale": 1,
+        "chromaKey1Color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "chromaKey1Settings": {
+          "red": 1,
+          "green": 0.10000000149011612,
+          "blue": 0,
+          "alpha": 1
+        },
+        "chromaKey2Color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "chromaKey2Settings": {
+          "red": 1,
+          "green": 0.10000000149011612,
+          "blue": 0,
+          "alpha": 1
+        },
+        "chromaKey3Color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "chromaKey3Settings": {
+          "red": 1,
+          "green": 0.10000000149011612,
+          "blue": 0,
+          "alpha": 1
+        },
+        "despillColor": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 1
+        },
+        "despillSettings": {
+          "red": 0,
+          "green": 0.20000000298023224,
+          "blue": 0.20000000298023224,
+          "alpha": 1
+        },
+        "lightColor": {
+          "red": 0.5,
+          "green": 0.5,
+          "blue": 0.5,
+          "alpha": 1
+        },
+        "alphaCoordinates": {
+          "red": 0.25,
+          "green": -0.5,
+          "blue": 0.4000000059604645,
+          "alpha": 0.4000000059604645
+        }
+      }
+    ]
+  }
+}
